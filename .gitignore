@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model files
+*.pt
+
+# Data files (except skill config)
+data/
+*.json
+!skills/weekly-report/references/config_example.json
+!test_report_config*.json
+
+# Large images in root
+/*.png
+/*.jpg
+/*.jpeg
+
+# Specific project files
+*.py
+!skills/weekly-report/scripts/*.py
+*.docx
+!周报_xxx_5.5-5.11_final.docx
+
+# IDE
+.idea/
+
+# Claude internal
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
